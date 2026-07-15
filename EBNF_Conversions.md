@@ -70,7 +70,8 @@ Num     = "1" | IonNum ;
                | <EXPR> "-" <EXPR> 
                | <EXPR> "*" <EXPR>
                | ...
-      
+```
+   
  ### EBNF
 BLOCK      = STMT | "{" { STMT } "}" ;
 
