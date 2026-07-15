@@ -24,13 +24,14 @@ expression = var ( "+" | "-" ) var | var ;
 ```
 
 ### EBNF
+```ebnf
 assign = id "=" expr ;
 id     = "A" | "B" | "C" ;
 expr   = id "+" expr 
        | id "*" expr 
        | "(" expr ")" 
        | id ;
-
+```
 
 ## Grammar For Chemical
 
@@ -71,7 +72,7 @@ Num     = "1" | IonNum ;
                | <EXPR> "*" <EXPR>
                | ...
 ```
-   
+
  ### EBNF
 BLOCK      = STMT | "{" { STMT } "}" ;
 
