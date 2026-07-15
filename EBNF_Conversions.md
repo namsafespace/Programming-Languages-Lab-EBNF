@@ -45,7 +45,7 @@ expr   = id "+" expr
 <Num>     ::= "1" | <IonNum>
 ```
 
- ### EBNF
+### EBNF
 Form    = Cmp [ Ion ] ;
 Cmp     = Term [ Num ] { Term [ Num ] } ;
 Term    = Elem | "(" Cmp ")" ;
